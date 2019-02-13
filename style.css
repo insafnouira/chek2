@@ -1,0 +1,459 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-logo{
+    height: 60px;
+    width: 227.8125px;
+    margin-top: 3%;
+}
+.navbar-menu{
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    height: 30%;
+    border-right: 1px solid #EFEFEF;
+    border-left: 1px solid #EFEFEF;
+}
+.navbar-menu1{
+    display: flex;
+    list-style-type: none; 
+    
+}
+.navbar-menu2{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(249, 249, 249); 
+    border-top: 1px solid rgb(239, 239, 239);
+    bottom: 0px;
+    height: 5vw;
+    
+    max-height: 60%;
+    
+    
+}
+.navbar-menu1-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(54, 57, 69);
+    font-weight: 500;
+    
+}
+.navbar-menu1-2{
+    margin-right: 5%;
+}
+.navbar-menu2-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.navbar-menu2-2{
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.navbar-menu2 a{
+    text-decoration: none;
+    color: rgb(91, 107, 127);
+}
+.navbar-menu1 a{
+    text-decoration: none;
+    color: rgb(91, 107, 127);
+}
+.navbar-actor{
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button1{
+    padding: 20%;
+    margin-left:-13%;
+    border-right: 1px solid rgb(239, 239, 239);
+}
+
+   
+.navbar-actor a{
+    text-decoration: none;
+    color: #3EA9F5;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+    font-size: 16px;
+}
+
+.homepage-1{
+    background-color: rgb(202, 149, 164);
+    display: flex;
+    
+    
+}
+.homepage-1-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-weight: 380;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.homepage-1-button{
+    border: 2px solid transparent;
+    font-size: 18px;
+    height: 60px;
+     font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    border-color: rgba(255,255,255,0.55);
+    background-color: white;
+    color: #363945;
+    
+}
+.homepage-1-video{
+    margin-left: 24%;
+    
+}
+
+.homepage-brick{
+    display: flex;
+}
+.wistia-hosting{
+    background-color: rgb(254, 210, 74);
+    width:45%;
+    padding: 45px 58px 50px;
+}
+.icon1{
+    color: #3EA9F5;
+    height: 55px;
+    width: 55px;
+}
+.wistia-hosting-h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 15px 0px 10px;
+    width: 100%;
+}
+.wistia-hosting-p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.wistia-hosting-button{
+    
+    border: 2px solid transparent;
+    font-size: 18px;
+    height: 60px;
+     font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    border-color: rgba(255,255,255,0.55);
+    background-color: transparent;
+
+}
+.soapbox{
+    background-color: #51C29F;
+    width:45%;
+    padding: 45px 58px 50px; 
+}
+.icon2{
+    color: #E7B8C7;
+    height: 62px;
+    width: 62px;
+}
+.soapbox-h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 15px 0px 10px;
+    width: 100%;
+}
+.soapbox-p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.soapbox-button{
+    
+    border: 2px solid transparent;
+    font-size: 18px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    border-color: rgba(255,255,255,0.55);
+    background-color: transparent;
+
+}
+.grow-video{
+    background-color: #3EA9F5; 
+    width:45%;
+    padding: 45px 58px 50px;
+}
+.icon3{
+    color: #FED24A;
+    height: 55px;
+    width: 55px;
+}
+.grow-video-h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 15px 0px 10px;
+    width: 100%;
+}
+.grow-video-p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.grow-video-button{
+    border: 2px solid transparent;
+    font-size: 18px;
+    height: 60px;
+     font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    border-color: rgba(255,255,255,0.55);
+    background-color: transparent;
+}
+.homelist{
+    display: flex;
+    
+    margin: 60px auto;
+    padding: 30px 0;
+   
+}
+.homelist-text{
+    color: #9CA8B7;
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 160px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.homelist-image{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 60%;
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+.homelist-image1{
+    margin-right: 5%;
+}
+.homelist-image2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.homelist-image3{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.homelist-image4{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.homelist-image5{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.homeblock{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    font-size: 16px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.homeblock1-title{
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+}
+.homeblock1-text{
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+    font-weight: 400;
+}
+.homeblock1-link{
+    color: #3769CC;
+    box-sizing: inherit;
+    font-size: 16px;
+}
+.homeblock1-img{
+    font-size: 16px;
+    display: grid;
+    position: relative;
+    width: 70%;
+}
+.homeblock2-title{
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+}
+.homeblock2-text{
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+    font-weight: 400;
+}
+.homeblock2-img{
+    font-size: 16px;
+    display: grid;
+    position: relative;
+    width: 63%;
+
+}
+.homeblock2-link{
+    color: #3769CC;
+    box-sizing: inherit;
+    font-size: 16px;
+}
+.homeblock3-img{
+    font-size: 16px;
+    display: grid;
+    position: relative;
+    width: 70%;
+
+}
+.homeblock3-title{
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+}
+.homeblock3-text{
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #2A2D35;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+    font-weight: 400;
+}
+.homeblock3-link{
+    color: #3769CC;
+    box-sizing: inherit;
+    font-size: 16px;
+}
+.marker{
+    background-color: #EFEFEF;
+    padding: 10px 40px;
+    text-align: center;
+    box-sizing: inherit;
+    font-size: 16px;
+}
+.marker-line{
+    color: #363945;
+    font-size: 18px;
+}
+.marker-link{
+    color: #5B6B7F;
+}
+.footer{
+    
+    background-color: #2A2D35;
+    
+    color: white;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 0 1.4vw;
+    position: relative;
+}
+.footer-line{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 270px;
+    padding: 15px 0;
+    font-family: Walsheim;
+    color: white;
+}
+.footer-nav-column{
+    display: flex;
+    line-height: 1;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: Walsheim;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-synthesis: style;
+    font-weight: 400;
+}
+.footer-nav-header{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+
+}
+.footer-nav-menu{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: -30%;
+    
+}
+.footer-hr{
+    background-color: #EFEFEF;
+    border: none;
+    height: 1px;
+    margin: 0 60px;
+}
+.footer-coopyright{
+    color: #B2B9C1;
+    margin: 30px 60px;
+    text-align: center;
+}
+.footer-nav-menu a{
+    text-decoration: none;
+    color:  #B2B9C1;
+}
+.footer-social-link{
+    font-size: 16px;
+    box-sizing: inherit;
+}
+.footer-social-link a{
+    text-decoration: none;
+    color:  #0691F2;;
+}
